@@ -25,7 +25,7 @@ export default function madeFor() {
         <a href='#' className='bg-black/25 h-72 w-52 p-4 rounded-md flex flex-col gap-2 hover:bg-black/40'>
             <Image src="/twenty.png" className="w-full rounded-md" width={104} height={104} quality={100} alt="Daily Mix 4"/>
             <strong className='font-semibold mt-2'>Daily Mix 4</strong>
-            <span className='text-sm text-zinc-500 font-normal'>Twenty One Pilots, Tame Impala, 21 Pillz</span>
+            <span className='text-sm text-zinc-500 font-normal'>Twenty One Pilots, Tame Impala, Post Malone</span>
         </a>
         <a href='#' className='bg-black/25 h-72 w-52 p-4 rounded-md flex flex-col gap-2 hover:bg-black/40'>
             <Image src="/rubel.png" className="w-full rounded-md" width={104} height={104} quality={100} alt="Daily Mix 5"/>

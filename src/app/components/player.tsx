@@ -155,7 +155,7 @@ export default function Player() {
               <div className='flex justify-center center'>
                 <input type='range' className='bg-zinc-200 accent-green-500 w-96 h-[6px] rounded-full [&::before-width]:w-0' defaultValue="0" ref={progressBar} onInput={changeRange}/>
               </div>
-              <span className='text-xs text-zinc-400 font-normal'>{tempo(duration)}</span>
+              <span className='text-xs text-zinc-400 font-normal'>{(duration && !isNaN(duration)) && tempo(duration)}</span>
             </div>
           {/* progress bar fim */}
         </div>
